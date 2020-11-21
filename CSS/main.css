@@ -418,6 +418,9 @@ max-width: 235px;
 #our_work{
     background-color: #de2b24;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .our_work__wraper{
