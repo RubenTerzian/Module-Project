@@ -1,4 +1,41 @@
 @media (min-width:768px){
+  
+  .header_top{
+    height: 42px;
+  }
+
+  .header_botom{
+    height: 130px;
+  }
+
+  #Home{
+    height: 590px;
+  }
+
+  #about_us{
+    height: 542px;
+  }
+
+  #our_approch{
+    height: 1407px;
+  }
+
+  #our_work{
+    height: 867px;
+  }
+
+  #form{
+    height: 848px;
+  }
+  
+  .footer_top{
+    height: 489px;
+  }
+
+  .footer_bottom{
+    height: 67px;
+  }
+
   .logo{
     transform: scale(1);
   }
@@ -60,23 +97,35 @@
       max-width: inherit;
     }
 
-    .title {
-      margin-top: 100px;
-    }
+  /* ABOUT US */
+
+  .title_about_us{
+    margin-top: 102px;
+  }
+
   /* OUR APPROCH */
 
 .our_approch__wraper{
-  max-width: 1021px;
+  max-width: 1025px;
+  max-height: 100%;
+}
+
+.title_our_approch{
+  margin: 90px 0 45px 0;
+}
+
+.section_title{
+  margin:0;
 }
 
 .our_approch__content{
-  margin-bottom: 130px;
+  margin-bottom: 92px;
 }
 
 .our_approch__content__item{
   height: 236px;
   flex-direction: row;
-  margin: 40px 0;
+  margin-bottom: 40px;
   text-align: start;
 }
 
@@ -133,6 +182,16 @@
  .right{
   top: 28%;
   left: -50px;
+ }
+
+ /* OR WORK */
+.our_work__wraper{
+  max-width: 1025px;
+  max-height: 100%;
+}
+
+ .title_our_work{
+  margin-top: 108px;
  }
 
   /* FORM */
