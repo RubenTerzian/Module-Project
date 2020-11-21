@@ -63,10 +63,6 @@
     box-shadow: none;
   }
 
-  .menu__box li:nth-child(n+2):nth-child(-n+4){
-    list-style: disc;
-  }
-  
   .menu__item {
     display: block;
     padding: 12px 24px;
@@ -89,19 +85,22 @@
     transform: scale(1.05);
     }
 
-    .description{
-      flex-wrap: nowrap;
-      width: 100%;
-    }
-    .descriprion__item__text p{
-      max-width: inherit;
-    }
+  /* HERO */
+
+  .hero__wraper a{
+    height: 69px;
+    width: 330px;
+    font-size: 23px;
+  
+  }
 
   /* ABOUT US */
 
   .title_about_us{
-    margin-top: 102px;
+    margin: 102px 0 45px 0;
   }
+
+  
 
   /* OUR APPROCH */
 
@@ -193,6 +192,52 @@
  .title_our_work{
   margin-top: 108px;
  }
+
+ .our_work_content{
+  margin: 47px 0 128px 0;
+}
+
+.row_reverse{
+  flex-direction: row;
+}
+
+
+.description{
+flex-wrap: nowrap;
+width: 100%;
+}
+.descriprion__item__text p{
+max-width: inherit;
+}
+
+.project_name{
+  width: 255px;
+  height: 253px;
+}
+
+.project_name h4, .project_name p{
+  font-size: 26px;
+}
+
+.project_name p{
+  font-size: 16px;
+}
+
+.project_name i{
+  font-size: 36px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.img_wraper {
+  width: 255px;
+  height: 253px;
+}
+
+.img_wraper img{
+  width: 255px;
+  height: 253px;
+}
 
   /* FORM */
 
