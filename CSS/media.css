@@ -72,6 +72,7 @@
     font-weight: inherit;
     text-decoration: none;
   }
+
   .free_consultation{
     color: #fff ;
     border-radius: 7px;
@@ -91,17 +92,31 @@
     height: 49px;
     width: 309px;
     font-size: 23px;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .content_title{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 29px 0 20px 0;
+  }
+
 
   /* ABOUT US */
 
   .title_about_us{
-    margin: 102px 0 45px 0;
+    margin: 96px 0 45px 0;
   }
 
-  
-
+  .descriprion__item__text{
+    width: 244px;
+    height: 83px;
+    font-size: 14px;
+    color: #5b5b5b;
+    font-family: "Open Sans";
+  }
   /* OUR APPROCH */
 
 .our_approch__wraper{
@@ -206,6 +221,7 @@
 flex-wrap: nowrap;
 width: 100%;
 }
+
 .descriprion__item__text p{
 max-width: inherit;
 }

@@ -269,6 +269,7 @@ max-width: 235px;
     flex-direction: column;
     align-items: center;
     max-width: 1025px;
+    width: 100%;
 }
 
 .title_about_us {
@@ -288,13 +289,14 @@ max-width: 235px;
     font-size: 20px;
     font-weight: 300;
     margin-top: 0;
+    margin-bottom: 6px;
 }
 
 .title_about_us div, .title_our_approch div, .title_our_work div{
     width: 47px;
     height: 5px;
     background-color: #424242;
-    margin: 0 0 5px 0;
+    margin: 3px 0 5px 0;
 }
 
 .description{
@@ -322,6 +324,12 @@ max-width: 235px;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.content_title{
+color: #424242;
+font-family: "Helvetica Neue";
+font-size: 18px;
 }
 
 /* OUR APPROCH */
@@ -378,6 +386,7 @@ max-width: 235px;
 }
 
 .our_approch__img{
+    display: flex;
     position: relative;
     width: auto;
 }
