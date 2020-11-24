@@ -45,6 +45,8 @@ padding:10px
 }
 
 .header_top__wraper a {
+    display: flex;
+    align-items: center;
     padding: 0 5px;
     text-decoration: none;
 }
@@ -58,7 +60,18 @@ padding:10px
 
 .header_top__wraper a i{
     padding: 0 3px;
-   
+}
+
+.header_top__wraper a:hover{
+    transform: scale(1.03);
+}
+
+.header_top__wraper a i:hover{
+    transform: scale(1.05);
+}
+
+.icon-mail-envelope-closed{
+    font-size: 25px;
 }
 
 .header_top__wraper .icon-facebook{
@@ -468,6 +481,9 @@ max-width: 235px;
 }
 
 .project_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f35e59;
     width: 150px;
     height: 150px;
@@ -481,7 +497,7 @@ max-width: 235px;
 }
 
 .project_name h4, .project_name p{
-    font-size: 22px;
+    font-size: 18px;
     color: #ffffff;
     font-family: "Helvetica Neue";
     text-align: center;
@@ -637,6 +653,11 @@ form {
     color: #fff;
     margin-top: 20px;
     border-radius: 3px;
+    transition: 0.3s;
+}
+
+.input__wraper button:hover{
+    transform: scale(1.1);
 }
 
 /* FOOTER */
