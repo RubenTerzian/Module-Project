@@ -87,6 +87,10 @@
     }
 
   /* HERO */
+.hero__wraper{
+    position: relative;
+    top: -13px;
+  }
 
   .hero__wraper a{
     height: 49px;
@@ -117,6 +121,17 @@
     color: #5b5b5b;
     font-family: "Open Sans";
   }
+
+  .description{
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: -20px;
+    }
+    
+    .descriprion__item__text p{
+    max-width: inherit;
+    font-size: 16px;
+    }
   /* OUR APPROCH */
 
 .our_approch__wraper{
@@ -125,7 +140,7 @@
 }
 
 .title_our_approch{
-  margin: 90px 0 45px 0;
+  margin: 75px 0 45px 0;
 }
 
 .section_title{
@@ -217,15 +232,6 @@
   flex-direction: row;
 }
 
-.description{
-flex-wrap: nowrap;
-width: 100%;
-}
-
-.descriprion__item__text p{
-max-width: inherit;
-}
-
 .project_name{
   width: 255px;
   height: 253px;
@@ -257,15 +263,17 @@ max-width: inherit;
   /* FORM */
 
   .title_form{
-    margin-top: 95px;
+    margin-top: 60px;
   }
   .form__content{
     width: 680px;
     height: 450px;
     margin-bottom: 110px;
 }
-input{
-   width: 400px;
+
+.input__wraper input{
+   width: 420px;
+   margin: 3px;
 }
 
 .red_circle{

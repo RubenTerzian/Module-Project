@@ -367,8 +367,8 @@ font-size: 18px;
 #our_approch .section_title__below{
     color: #424242;
     font-size: 20px;
-    font-weight: 300;   
-    margin: 15px;
+    font-weight: 300;
+    margin: 10px;
 }
 
 .our_approch__content{
@@ -640,7 +640,7 @@ form {
 .input__wraper input{
     border: 1px solid #d8d8d8;
     margin: 10px;
-    width: 290px;
+    width: 280px;
     height: 50px;
     color: #000;
     font-family: "Helvetica - Normal";
@@ -660,7 +660,7 @@ form {
     background-color: #de2b24;
     border: none;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 33px;
     border-radius: 3px;
     transition: 0.3s;
 }
@@ -719,7 +719,7 @@ form {
 .footer_top__wraper p{
 color: #cecece;
 font-family: "Open Sans";
-font-size: 14px;
+font-size: 16.5px;
 font-weight: 400;
 text-align: center;
 margin: 25px;
@@ -734,6 +734,10 @@ margin: 25px;
     font-family: "Open Sans";
     font-size: 14px;
     padding-left: 20px;
+}
+
+.footer_top__wraper input::placeholder{
+    color: #fff;
 }
 
 .footer_top__wraper button{
@@ -767,6 +771,6 @@ margin: 25px;
 .footer_bottom p{
     color: #cecece;
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
 }
