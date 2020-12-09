@@ -24,7 +24,7 @@ header{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .header_top{
@@ -49,13 +49,15 @@ padding:10px
     align-items: center;
     padding: 0 5px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
-.header__line{
+.header_top__wraper a:nth-child(1)::after{
     background-color: #e2e2e2;
-    margin: 1px;
     width: 1px;
-    height: 300%;
+    height: 3rem;
+    margin-left: 7px;
+    content: "";
 }
 
 .header_top__wraper a i{
@@ -241,7 +243,6 @@ max-width: 235px;
 /* Лента слайдов */
 .slick-track{
     display: flex;
-    height: 590px;
 }
 /* Слайд */
 .slick-slide{
@@ -330,18 +331,18 @@ max-width: 235px;
     margin-bottom: 6px;
 }
 
-.title_about_us div, .title_our_approch div, .title_our_work div{
+.title_about_us::after, .title_our_approch::after{
     width: 47px;
     height: 5px;
     background-color: #424242;
     margin: 3px 0 5px 0;
+    content: "";
 }
 
 .description{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 100px;
 }
 
 .descriprion__item{
@@ -508,8 +509,12 @@ font-size: 18px;
     color: #fff;
 }
 
-.white div{
-    background-color: #fff;
+.title_our_work::after {
+    width: 47px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 3px 0 5px 0;
+    content: "";
 }
 
 .our_work_content{
@@ -687,9 +692,9 @@ form {
     padding-left: 20px;
 }
 
-.input__wraper input:focus{
+.input__wraper form input:focus{
     box-shadow: 0 0 5px rgba(18, 135, 191, 0.66);
-    border: 1px solid #1287bf;
+    border: 1px solid #1f77a0;
 }
 
 .input__wraper button{

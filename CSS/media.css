@@ -1,4 +1,7 @@
-@media (min-width:1024px){
+@media (min-width:768px){
+  #about_us{
+    height: 542px;
+  }
   
   .header_top{
     height: 42px;
@@ -8,26 +11,6 @@
     height: 130px;
   }
 
-  #Home{
-    height: 590px;
-  }
-
-  #about_us{
-    height: 542px;
-  }
-
-  #our_approch{
-    height: 1407px;
-  }
-
-  #our_work{
-    height: 867px;
-  }
-
-  #form{
-    height: 848px;
-  }
-  
   .footer_top{
     height: 489px;
   }
@@ -132,96 +115,12 @@
     max-width: inherit;
     font-size: 16px;
     }
-  /* OUR APPROCH */
+  
 
-.our_approch__wraper{
-  max-width: 1025px;
-  max-height: 100%;
-}
-
-.title_our_approch{
-  margin: 75px 0 45px 0;
-}
-
-.section_title{
-  margin:0;
-}
-
-.our_approch__content{
-  margin-bottom: 92px;
-}
-
-.our_approch__content__item{
-  height: 236px;
-  flex-direction: row;
-  margin-bottom: 40px;
-  text-align: start;
-  box-shadow: 0px 0px 3px 1px #e5e5e5;
-}
-
-.our_approch__img{
-  flex-grow: 1;
-}
-
-.our_approch__red_box{
-    top: 28%;
-    right: -50px;
-    width: 100px;
-    height: 100px;
-}
-
-.our_approch__content__item__text{
-  max-height: 236px;
-  min-height: 236px;
-  flex-grow: 2;
-}
-
-.our_approch__content__item__text__wraper{
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 50px 70px;
-}
-
-.our_approch__content__item__text__wraper p{
-  padding: 0px;
-  margin: 0;
-  width: 520px;
-  height: 58px;
-}
-
-
-.our_approch__red_box h3{
-    font-size: 60px;
-}
-
-.our_approch__red_box p:nth-child(-n+2){
-    font-size: 21px;
-    line-height: 25px;
-}
-
-.our_approch__red_box p{
-  line-height: 7px;
-}
-
- .reverse{
-  flex-direction: row-reverse;
-  text-align: end;
- }
-
- .right{
-  top: 28%;
-  left: -50px;
- }
-
- /* OR WORK */
-.our_work__wraper{
-  max-width: 1025px;
-  max-height: 100%;
-}
+ /* OUR WORK */
 
  .title_our_work{
-  margin-top: 108px;
+  margin-top: 40px;
  }
 
  .our_work_content{
@@ -230,34 +129,6 @@
 
 .row_reverse{
   flex-direction: row;
-}
-
-.project_name{
-  width: 255px;
-  height: 253px;
-}
-
-.project_name h4, .project_name p{
-  font-size: 26px;
-}
-
-.project_name p{
-  font-size: 16px;
-}
-
-.project_name i{
-  font-size: 36px;
-  margin: 25px;
-}
-
-.img_wraper {
-  width: 255px;
-  height: 253px;
-}
-
-.img_wraper img{
-  width: 255px;
-  height: 253px;
 }
 
   /* FORM */
@@ -351,4 +222,148 @@ transform: rotate(90deg) translate(-2px, 6px);;
   font-size: 14px;
   font-weight: 400;
 }
+}
+@media (min-width:1024px){
+
+  #Home{
+    height: 590px;
+  }
+
+  #our_approch{
+    height: 1407px;
+  }
+
+  #our_work{
+    height: 867px;
+  }
+
+  #form{
+    height: 848px;
+  }
+
+  /* OUR APPROCH */
+
+.our_approch__wraper{
+  max-width: 1025px;
+  max-height: 100%;
+}
+
+.title_our_approch{
+  margin: 75px 0 45px 0;
+}
+
+.section_title{
+  margin:0;
+}
+
+.our_approch__content{
+  margin-bottom: 92px;
+}
+
+.our_approch__content__item{
+  height: 236px;
+  flex-direction: row;
+  margin-bottom: 40px;
+  text-align: start;
+  box-shadow: 0px 0px 3px 1px #e5e5e5;
+}
+
+.our_approch__img{
+  flex-grow: 1;
+}
+
+.our_approch__red_box{
+    top: 28%;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+.our_approch__content__item__text{
+  max-height: 236px;
+  min-height: 236px;
+  flex-grow: 2;
+}
+
+.our_approch__content__item__text__wraper{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 50px 70px;
+}
+
+.our_approch__content__item__text__wraper p{
+  padding: 0px;
+  margin: 0;
+  width: 520px;
+  height: 58px;
+}
+
+
+.our_approch__red_box h3{
+    font-size: 60px;
+}
+
+.our_approch__red_box p:nth-child(-n+2){
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.our_approch__red_box p{
+  line-height: 7px;
+}
+
+ .reverse{
+  flex-direction: row-reverse;
+  text-align: end;
+ }
+
+ .right{
+  top: 28%;
+  left: -50px;
+ }
+
+  /* OUR WORK */
+.our_work__wraper{
+  max-width: 1025px;
+  max-height: 100%;
+}
+
+ .title_our_work{
+  margin-top: 108px;
+ }
+
+ .our_work_content{
+  margin: 47px 0 128px 0;
+}
+
+.project_name{
+  width: 255px;
+  height: 253px;
+}
+
+.project_name h4, .project_name p{
+  font-size: 26px;
+}
+
+.project_name p{
+  font-size: 16px;
+}
+
+.project_name i{
+  font-size: 36px;
+  margin: 25px;
+}
+
+.img_wraper {
+  width: 255px;
+  height: 253px;
+}
+
+.img_wraper img{
+  width: 255px;
+  height: 253px;
+}
+
+
 }
